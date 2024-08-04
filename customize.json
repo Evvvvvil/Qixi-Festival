@@ -1,14 +1,14 @@
 {
   "greeting": "Good Morning",
-  "name": "Today is our first Qixi",
-  "greetingText": "It's also the 69th day we've known each other",
+  "name": "He SiYuan",
+  "greetingText": "Today is our first Qixia",
   "wishText": "May the js.prototypes always be with you! ;)",
   "imagePath": "img/lydia2.png",
   "text1": "Happy Qixi:D",
   "textInChatBox": "I hope you are happy every day! Yeee!May Many many Happy be With You...",
   "sendButtonLabel": "Send",
-  "text2": "That's what I was going to do.",
-  "text3": "But then I stopped.",
+  "text2": "It's also the 69th day we've known each other.",
+  "text3": "it's fantastic to be with you every day.",
   "text4": "I realised, I wanted to do something",
   "text4Adjective": "special",
   "text5Entry": "Because,",
@@ -17,7 +17,7 @@
   "bigTextPart1": "S",
   "bigTextPart2": "O",
   "wishHeading": "Happy Qixi Festival!Hope we can always be this so sweet!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
+  "outroText": "We Will always be so Good.",
+  "replayText": "Let's fully enjoy today.",
   "outroSmiley": ":)"
 }
