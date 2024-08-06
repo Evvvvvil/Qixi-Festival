@@ -35,7 +35,7 @@ const animationTimeline = () => {
     .join("</span><span>")}</span`;
 
   hbd.innerHTML = `<span>${hbd.innerHTML
-    .split("")
+    .split("#")
     .join("</span><span>")}</span`;
 
   const ideaTextTrans = {
@@ -291,6 +291,25 @@ const animationTimeline = () => {
       },
       "+=1"
     );
+
+    setTimeout(() => {
+      tl.pause();
+    }, 1200);
+
+    let clicks = 0;
+    // 监听点击事件
+    document.addEventListener('click',function(event) {
+      if (clicks === 0) {
+        var music = document.getElementById("dd");
+        music.play();
+      }
+      if (clicks % 2 === 0) {
+        tl.resume();
+      } else {
+        tl.pause();
+      }
+      clicks++;  
+    });
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
