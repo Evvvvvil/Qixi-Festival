@@ -49,7 +49,8 @@ const animationTimeline = () => {
     opacity: 0,
     y: 20,
     rotationY: 5,
-    skewX: "-15deg"
+    skewX: "-15deg",
+    duration : 1.5
   };
 
   const tl = new TimelineMax();
