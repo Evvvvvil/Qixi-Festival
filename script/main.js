@@ -304,10 +304,10 @@ const animationTimeline = () => {
     }, 1200);
 
     let clicks = 0;
+    var music = document.getElementById("dd");
     // 监听点击事件
     document.addEventListener('click',function(event) {
       if (clicks === 0) {
-        var music = document.getElementById("dd");
         music.play();
       }
       if (clicks % 2 === 0) {
