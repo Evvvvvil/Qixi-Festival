@@ -311,7 +311,7 @@ const animationTimeline = () => {
         music.play();
       }
       if (clicks % 2 === 0) {
-        if (clicks != 0) {
+        if (clicks !== 0) {
           music.play();
           }
         tl.resume();
